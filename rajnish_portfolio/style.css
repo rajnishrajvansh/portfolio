@@ -162,7 +162,7 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 30vh;
+  padding-top: 20vh;
   height: 80vh;
   margin: 0 2rem;
   box-sizing: border-box;
@@ -205,15 +205,15 @@ section {
 }
 
 .section__text__p1 {
+  padding-top: 5vh;
   text-align: center;
   font-size: 2.2em;
   color: rgb(56, 55, 55);
 }
 
 .section__text__p2 {
-  
   font-size: 2.5rem;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   color: rgb(56, 55, 55);
 }
 
@@ -365,6 +365,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .article-container {
@@ -373,13 +374,14 @@ section {
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
-  justify-content: space-around;
+  justify-content: center;
+  max-width: 60rem;
 }
 
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content: center;
   gap: 0.5rem;
 }
 
@@ -412,6 +414,18 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+}
+.experience-sub-title,
+.details-container:hover,
+.color-container:hover {
+  background-color: rgba(199, 88, 13, 0.164);
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.section__text:hover{
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* CONTACT */

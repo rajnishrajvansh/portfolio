@@ -9,6 +9,7 @@
   #contact,
   #projects {
     height: fit-content;
+    flex-wrap: wrap;
   }
 }
 
